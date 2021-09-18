@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subneteo</title>
+    <script src="/principal.js" ></script>
+    <script src="/tabla.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div>
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Programa Subneteo</h1>
+            
+                <br>
+                <br>
+                <label>Ingresa la ip: </label>   
+                <input class="text-muted" id="ip" name="ip" >
+                <label>Número de subredes: </label>
+                <input type="input_text" id="subred">
+                <br>    
+                <input type="button" class="bg-success" value="Calcular" onclick="XDE()" >
+            
+                
+ 
+            <h4>Máscara de subred adaptada:</h4>
+            <input type="text" class="boxi" id="maskadap" readonly>
+            <h4>Máscara de subred en binario:</h4>
+            <input type="text" class="boxi" id="maskbin" readonly>
+            <h4>Tipo de clase:</h4>  
+            <input type="text" class="boxi" id="clase" readonly>    
+            <h4>IP en binario:</h4>
+            <input type="text" class="boxi" id="ipbin" readonly>    
+                <br>
+                <br>
+                <br>
+                <br>
+            <h3>CAMACHO ZAVALA RICARDO</h3>
+            
+        </div>
+        <br>
+        <div>
+            <table id="tabla1" class="table">           
+            </table>
+        </div>
+    </div>  
+    <br>
+    <br>
+    <br>
+</body>
+</html>
