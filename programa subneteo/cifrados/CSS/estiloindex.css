@@ -1,0 +1,11 @@
+body{
+	background-image: url("gatito.jpg");
+}
+.menu{
+padding:70px;;
+}
+.entrada{
+	width:100%;
+	padding:30px;
+	float: right;
+}
