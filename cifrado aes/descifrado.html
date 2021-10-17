@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <title>Pagina1</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" ></script>
+    
+    <br><br><br><br><br><br><div class="Minimalist">
+        <center>
+            <h1>DESCIFRADO</h1>
+            <table>
+                <center><h5 class="Minimalist">TIPO DE CIFRADO:</h5></center>
+                <select id="numerillo">
+                    <option value="128">128 (16 en clave)</option>
+
+                    <option value="192">192 (24 en clave)</option>
+
+                    <option value="256">256 (32 en clave)</option>
+
+                </select>
+                <br>
+                <br>
+                <textarea id="cifracion" placeholder="MUESTRA DEL TEXTO" required></textarea>
+                <br>
+                <input type="texto" placeholder="INGRESE LA CLAVE" id="clave" >
+            <td>
+                <input type="button" value="DESCIFRAR" onclick="descifrar()">
+                <br>
+                <br>
+            </td>
+            <br>
+            <tr>
+<br>
+                <textarea id="txtdescifrado" placeholder="Texto Descifrado" disabled></textarea>
+            </tr>
+
+
+
+                <p id="texto"></p>
+
+                <div id="resultado"></div>
+        </table>
+
+
+        </center>
+    </div>
+    <h1><center><a class=Minimalist href  = "./index.html">Volver</a></center></h1>
+    <script src="JS/aes.js" ></script>
+</body>
+</html> 

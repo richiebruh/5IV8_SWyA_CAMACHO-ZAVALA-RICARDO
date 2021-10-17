@@ -1,0 +1,20 @@
+body{
+  
+    background-color: cornflowerblue;
+    
+}
+
+.Minimalist{
+	font-family: "Arial";
+	color: rgb(240, 232, 232);
+
+}
+
+.boton{
+    padding: 10px;
+    font-weight: 1000;
+    font-size: 20px;
+    background-color: #46b5c9;
+    border: 5px solid #46B5C9;
+
+}
